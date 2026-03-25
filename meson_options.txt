@@ -1,0 +1,4 @@
+option('debug_log', type : 'boolean', value : false, description : 'Enable debug logging')
+option('enable_tests', type : 'boolean', value : true, description : 'Enable tests')
+option('enable_xwayland', type : 'boolean', value : true, description : 'Enable XWayland support')
+option('enable_systemd', type : 'boolean', value : true, description : 'Enable systemd integration')
