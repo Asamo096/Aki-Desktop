@@ -12,7 +12,7 @@ libinput = dependency('libinput')
 xkbcommon = dependency('xkbcommon')
 pixman = dependency('pixman-1')
 systemd = dependency('systemd')
-pam = dependency('libpam')
+pam = dependency('pam')
 lua = dependency('lua', version : '>=5.4')
 
 # 编译选项
